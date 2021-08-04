@@ -3,4 +3,4 @@ WORKDIR /opt/app
 COPY . .
 RUN npm install
 CMD ["npm", "start"]
-EXPOSE 9999pine3.12
+EXPOSE 9999
